@@ -20,7 +20,12 @@ body{
 
 main{
     display: flex;
-    height: 100px;
+    height: 10vh;
+    min-height: 10px;
+    bottom: 70%;
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 a{
@@ -53,14 +58,15 @@ a{
     justify-content: space-evenly; 
     flex-wrap: wrap; 
     margin-top: 50px;
+    position:bottom;
 }
-
 .conteudo{
     display: flex;
     align-items: center;
-
-    height: 100px;
+    height: 400px;
     padding: 50px;
+    border-radius: 50px;
+    background-color: rgba(173, 216, 230, 0.5); 
 }
 
 .menu-subitens-hidden{
