@@ -74,6 +74,10 @@ a{
     display: none;
 } 
 
+.menu-subitem a:hover{
+    color: rgb(0, 92, 122);
+}
+
 .menu-item-label{
     margin-left: 15px;
     margin-top: 15px;
