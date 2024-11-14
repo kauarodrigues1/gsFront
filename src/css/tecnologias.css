@@ -72,3 +72,12 @@ main{
     flex-wrap: wrap; 
     margin-top: 50px;
 }
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    padding: 50px;
+    border-radius: 50px;
+    background-color: rgba(173, 216, 230, 0.5); 
+}
